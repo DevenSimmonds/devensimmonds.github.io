@@ -17,18 +17,29 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 100px;
   background-color: #555555;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0 20px;
   z-index: 50;
 }
+header img,
+footer img{
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
 nav{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   background: #ffffff;
   padding: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 nav a {
   color: #000000;
@@ -103,6 +114,10 @@ p {
   background-color: #aaa;
 }
 footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #000000;
   color: #d8d8d8;
   text-align: center;
@@ -110,4 +125,11 @@ footer {
   margin-top: 40px;
   border-top: 1px solid #444;
   font-size: 0.9em;
+}
+footer img {
+  position: absolute;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
