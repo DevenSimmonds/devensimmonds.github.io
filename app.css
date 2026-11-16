@@ -57,6 +57,23 @@ main{
   background: #686868;
   border-radius: 8px;
 }
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+.profile-img {
+ float: left;
+ width: 150px;
+ height: 150px;
+ min-width: 150px;
+ border-radius: 50%;
+ margin: 20px auto;
+ object-fit: cover;
+ border: 3px solid #ffffff;
+ border-radius: 50%;
+}
 h2{
   color: #ffffff;
   font-size: 24px;
@@ -69,9 +86,9 @@ p {
   line-height: 1.6;
   font-size: 1.4em;
   padding: 50px 0;
+  padding-left: 20px;
 }
 
-/* Contact */
 .contact {
   background-color: #242424;
   padding: 20px;
