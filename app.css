@@ -102,3 +102,12 @@ p {
 .contact button:hover {
   background-color: #aaa;
 }
+footer {
+  background: #000000;
+  color: #d8d8d8;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  font-size: 0.9em;
+}
