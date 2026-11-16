@@ -160,10 +160,14 @@ footer {
   background: #000000;
   color: #d8d8d8;
   text-align: center;
-  padding: 20px;
+  padding: 20px 100px;
   margin-top: 40px;
   border-top: 1px solid #444;
   font-size: 0.9em;
+}
+footer p {
+  margin: 0;
+  padding: 0;
 }
 footer > a > img {
   position: absolute;
@@ -171,4 +175,12 @@ footer > a > img {
   width: 40px;
   height: 40px;
   object-fit: contain;
+}
+footer .social-icons {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 15px;
 }
